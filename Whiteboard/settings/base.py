@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'accounts',
     'courses',
+    'storages',
 ]
 
 
@@ -147,3 +148,8 @@ CSRF_COOKIE_SECURE              = False
 SECURE_HSTS_SECONDS             = None
 SECURE_HSTS_INCLUDE_SUBDOMAINS  = False
 SECURE_FRAME_DENY               = False
+
+AWS_GROUP_NAME = "CPE_User_Group"
+AWS_USERNAME   = "Naigggs"
+AWS_ACCESS_KEY_ID    = "AKIA4M64WW2R7MOR6MEP"
+AWS_SECRET_KEY = "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"
